@@ -32,7 +32,7 @@ RUN adduser --system --quiet --shell=/bin/bash --home=/odoo --gecos 'ODOO' --gro
 RUN adduser odoo sudo
 
 RUN apt-get update && apt-get install -y libtool python3-dev libffi-dev libxml2-dev libxslt1-dev zlib1g-dev autoconf \
-        python3-wheel libevent-dev git procps libpq-dev libcairo2 libcairo2-dev
+        python3-wheel libevent-dev git procps libpq-dev libcairo2 libcairo2-dev libldap2-dev libsasl2-dev
 
 COPY ./requirements.txt requirements.txt
 RUN pip3 install --upgrade pip \
