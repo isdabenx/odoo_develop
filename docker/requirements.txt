@@ -1,0 +1,14 @@
+PyPDF2
+psycopg2
+werkzeug
+passlib
+reportlab
+babel
+lxml
+decorator
+polib
+setuptools
+idna
+requests
+psutil
+jinja2
