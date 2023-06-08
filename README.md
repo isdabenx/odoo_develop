@@ -7,6 +7,10 @@ This project is a template to develop Odoo modules with Docker and PyCharm.
 Docker V2 or higher
 PyCharm Professional
 
+## Installation
+
+Clone this repository with `git clone --recurse-submodules git@github.com:isdabenx/odoo_develop.git`.
+
 ## Environment
 
 Create a `.env` file with the following variables in the root of the project:
